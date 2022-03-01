@@ -12,7 +12,7 @@
 $a = 10;
 $b = 43;
 //menjumlahkan variabel a dengan variabel b
-echo "Hasil penjumlahan antara ".$a." dan  ".$b." adalah ".$a + $b;
+echo "Hasil penjumlahan ".$a." dan  ".$b." adalah ".$a + $b;
 ?>
     
 </body>
