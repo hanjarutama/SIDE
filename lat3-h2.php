@@ -63,7 +63,7 @@
         echo "$bagi > $sisa: $hasil";
         echo "<br />";
         
-        echo "$ c = $c, $ d = $d.";
+        echo "c = $c, d = $d.";
         echo "<br>";
         if ($c=5 AND $d =10)
         {
@@ -72,6 +72,43 @@
         echo "Salah";
         }
         
+        ?>
+<br><br>
+    <h2>Latihan Percabangan</h2>
+        <?php
+            $nilai = 84;
+            
+            echo "Nilai = ".$nilai."<br>";  
+            if ($nilai>=80) {
+                echo "Anda Mendapatkan Nilai A";
+            }elseif($nilai >=60){
+                echo "Anda Mendapatkan Nilai B";
+            }else{
+                echo "Anda Mendapatkan Nilai C";
+            }
+            echo "<br><br><br><br>";
+
+            $mesin = "bagus";
+            $body = "jelek";
+
+            echo "Mesin ".$mesin."<br>";
+            echo "Body ".$body."<br>";
+
+            if($mesin == "bagus"){
+                if($body == "bagus"){
+                    echo "Kondisi Mobil Bagus";
+                } elseif($body == "jelek") {
+                    echo "Kondisi Mobil Menengah";
+                }
+            } elseif($mesin == "jelek"){
+                if($body == "bagus"){
+                    echo "Kondisi Mobil menengah";
+                } else {
+                    echo "Kondisi Mobil Jelek";
+                }
+            }
+            echo "<br><br><br><br>";
+
         ?>
 
         
