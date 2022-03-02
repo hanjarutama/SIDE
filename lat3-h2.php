@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>array</title>
+    <title>pertemuan 2</title>
 </head>
 <body>
-    <h1>Belajar Array dan Tipe Data</h1>
+    <h1>Belajar Array dan Tipe Data dan Operasi aritmatika</h1>
+    <br><br>
+    <h2>Latihan 1</h2>
 <?php
     // pembuatan array
         $coba = array (
@@ -29,6 +31,48 @@
 
         echo "Nama Saya ".$coba2[1]." umur saya ".$coba2[0]." dan saya memiliki IPK ".$coba2[2];
         ?>
+        <br><br>
+        <h2>Latihan 2</h2>
+<?php
+    // operator aritmatika
+        $a = 4;
+        $b = 8;
+
+        $bagi = $b / $a ;
+        $sisa = $b % $a ;
+        $hasil= $bagi > $sisa;
+
+        $benar = true;
+        $salah = false;
+
+
+    // hasil operator
+        echo $a++; 
+        echo "<br />";
+        echo $a--; 
+        echo "<br />";
+        echo $a+=5; 
+        echo "<br />";
+        echo $a**=2; 
+        echo "<br />";
+        echo $a.=" adalah hasil kuadrat"; 
+        echo "<br />";
+        echo "<br />";
+        echo $bagi; 
+        echo "<br />";
+        echo $sisa; 
+        echo "<br />";
+        echo "$bagi > $sisa: $hasil";
+        echo "<br />";
+        
+        $tes = $benar && $salah;
+        printf("%benar && %benar = %benar", $benar,$salah,$tes);
+        echo "<hr>";
+        
+        
+        ?>
+
+        
     
 </body>
 </html>
