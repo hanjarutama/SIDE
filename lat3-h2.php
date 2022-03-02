@@ -37,14 +37,12 @@
     // operator aritmatika
         $a = 4;
         $b = 8;
+        $c = 5;
+        $d =10;
 
         $bagi = $b / $a ;
         $sisa = $b % $a ;
         $hasil= $bagi > $sisa;
-
-        $benar = true;
-        $salah = false;
-
 
     // hasil operator
         echo $a++; 
@@ -65,10 +63,14 @@
         echo "$bagi > $sisa: $hasil";
         echo "<br />";
         
-        $tes = $benar && $salah;
-        printf("%benar && %benar = %benar", $benar,$salah,$tes);
-        echo "<hr>";
-        
+        echo "$ c = $c, $ d = $d.";
+        echo "<br>";
+        if ($c=5 AND $d =10)
+        {
+        echo "Benar <br>";
+        }else{
+        echo "Salah";
+        }
         
         ?>
 
