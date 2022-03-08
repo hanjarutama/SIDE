@@ -76,6 +76,7 @@
 <br><br>
     <h2>Latihan Percabangan</h2>
         <?php
+        echo "<h4>NO 1</h4><br>"; 
             $nilai = 84;
             
             echo "Nilai = ".$nilai."<br>";  
@@ -87,6 +88,7 @@
                 echo "Anda Mendapatkan Nilai C";
             }
             echo "<br><br><br><br>";
+            echo "<h4>NO 2</h4><br>"; 
 
             $mesin = "bagus";
             $body = "jelek";
